@@ -1,8 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "5E92j1988bsw/8Lf3RZ1QaVk0e0ahYJeR7b7CB5Lw4LFZNSo6qkTJMuEW4c33QOPaBnOlAcg9cIJ6vk2BqjJZg==",
-  "success": true,
+  "dgSpecHash": "zeHUon/aAaiO1czaxyyPZemGdThsE+ePCAb6jwUn5XX2Us0y4hAeOIkZh41PGg6YU0glMNFiQb+A3xLYevRwzQ==",
+  "success": false,
   "projectFilePath": "C:\\Vikram\\workspace\\.NetWorkspace\\my-books\\my-books\\my-books.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Swashbuckle.AspNetCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.VisualStudio.Azure.Containers.Tools.Targets. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.VisualStudio.Azure.Containers.Tools.Targets",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
