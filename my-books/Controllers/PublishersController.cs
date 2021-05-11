@@ -41,7 +41,20 @@ namespace my_books.Controllers
         //        return NotFound();
         //    }
         //}
-        public Publisher GetPublisherById(int id)
+        //public Publisher GetPublisherById(int id)
+        //{
+        //    var _response = _publishersService.GetPublisherById(id);
+
+        //    if (_response != null)
+        //    {
+        //        return _response;
+        //    }
+        //    else
+        //    {
+        //        return null;
+        //    }
+        //}
+        public ActionResult<Publisher> GetPublisherById(int id)
         {
             var _response = _publishersService.GetPublisherById(id);
 
@@ -51,7 +64,7 @@ namespace my_books.Controllers
             }
             else
             {
-                return null;
+                return NotFound();
             }
         }
 
