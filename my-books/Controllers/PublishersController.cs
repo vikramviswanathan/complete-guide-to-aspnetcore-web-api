@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using my_books.Data.Models;
 using my_books.Data.Services;
 using my_books.Data.ViewModel;
+using my_books.Migrations.ActionResults;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -54,17 +55,40 @@ namespace my_books.Controllers
         //        return null;
         //    }
         //}
-        public ActionResult<Publisher> GetPublisherById(int id)
+        //public ActionResult<Publisher> GetPublisherById(int id)
+        //{
+        //    var _response = _publishersService.GetPublisherById(id);
+
+        //    if (_response != null)
+        //    {
+        //        return _response;
+        //    }
+        //    else
+        //    {
+        //        return NotFound();
+        //    }
+        //}
+        public CustomActionResult GetPublisherById(int id)
         {
             var _response = _publishersService.GetPublisherById(id);
 
             if (_response != null)
             {
-                return _response;
+                var _responseObj = new CustomActionResultVM()
+                {
+                    Exception = new Exception("This is coming from publishers controller")
+                };
+
+                return new CustomActionResult(_responseObj);
             }
             else
             {
-                return NotFound();
+                var _responseObj = new CustomActionResultVM()
+                {
+                    Publisher = _response
+                };
+
+                return new CustomActionResult(_responseObj);
             }
         }
 
