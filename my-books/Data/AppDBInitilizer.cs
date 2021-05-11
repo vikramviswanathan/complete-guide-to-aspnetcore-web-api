@@ -26,7 +26,6 @@ namespace my_books.Data
                         DateRead = DateTime.UtcNow.AddDays(-10),
                         Rate = 4,
                         Genre = "Biography",
-                        Author = "First Author",
                         CoverUrl = "https...",
                         DateAdded = DateTime.UtcNow
                     },
