@@ -13,7 +13,6 @@ C:\Vikram\workspace\.NetWorkspace\my-books\my-books\bin\Debug\net5.0\Microsoft.O
 C:\Vikram\workspace\.NetWorkspace\my-books\my-books\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Vikram\workspace\.NetWorkspace\my-books\my-books\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Vikram\workspace\.NetWorkspace\my-books\my-books\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Vikram\workspace\.NetWorkspace\my-books\my-books\obj\Debug\net5.0\my-books.csprojAssemblyReference.cache
 C:\Vikram\workspace\.NetWorkspace\my-books\my-books\obj\Debug\net5.0\my-books.GeneratedMSBuildEditorConfig.editorconfig
 C:\Vikram\workspace\.NetWorkspace\my-books\my-books\obj\Debug\net5.0\my-books.AssemblyInfoInputs.cache
 C:\Vikram\workspace\.NetWorkspace\my-books\my-books\obj\Debug\net5.0\my-books.AssemblyInfo.cs
