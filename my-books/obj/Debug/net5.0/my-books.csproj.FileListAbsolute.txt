@@ -74,3 +74,5 @@ C:\Vikram\workspace\.NetWorkspace\my-books\my-books\obj\Debug\net5.0\my-books.dl
 C:\Vikram\workspace\.NetWorkspace\my-books\my-books\obj\Debug\net5.0\ref\my-books.dll
 C:\Vikram\workspace\.NetWorkspace\my-books\my-books\obj\Debug\net5.0\my-books.pdb
 C:\Vikram\workspace\.NetWorkspace\my-books\my-books\obj\Debug\net5.0\my-books.genruntimeconfig.cache
+C:\Vikram\workspace\.NetWorkspace\my-books\my-books\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Vikram\workspace\.NetWorkspace\my-books\my-books\obj\Debug\net5.0\my-books.csprojAssemblyReference.cache
