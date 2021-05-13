@@ -13,23 +13,23 @@ namespace my_books.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PubisherController : ControllerBase
+    public class PublishersController : ControllerBase
     {
         private PublishersService _publishersService;
 
-        public PubisherController(PublishersService publishersService)
+        public PublishersController(PublishersService publishersService)
         {
             _publishersService = publishersService;
         }
 
         [HttpGet("get-all-publishers")]
-        public IActionResult GetAllPublishers(string sortBy)
+        public IActionResult GetAllPublishers(string sortBy, string searchString)
         {
             //var _result = _publishersService.GetAllPublishers();
             //return Ok(_result);
             try
             {
-                var _result = _publishersService.GetAllPublishers(sortBy);
+                var _result = _publishersService.GetAllPublishers(sortBy, searchString);
                 return Ok(_result);
             }
             catch(Exception)
